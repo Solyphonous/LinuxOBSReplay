@@ -12,3 +12,4 @@ This script lets you automatically save OBS replays on linux by running this scr
 OBSPASSWORD = "The password available to you in OBS websocket settings."
 ```
 4. Run `poetry run python /path/to/replay.py` to clip a replay.
+5. (OPTIONAL) Create a keybind in your desktop environment to run this script at the press of a button. For example, in KDE Plasma you can navigate to Settings -> Keyboard -> Shortcuts -> Add New Command or Script and paste `poetry run python /path/to/replay.py` into the command box. Then, bind a key and you are all set!
