@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "obsreplay"
+description = "Script that automates OBS replay on linux"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+obsws-python = "^1.7.0"
+python-dotenv = "^1.0.1"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
